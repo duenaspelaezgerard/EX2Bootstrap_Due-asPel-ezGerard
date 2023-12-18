@@ -9,207 +9,331 @@
     <script src="https://kit.fontawesome.com/a70ef8b3fc.js" crossorigin="anonymous"></script>
 
     <style>
-        .azulOscuro{
-            background-color: rgb(15, 47, 101);
+        .logoFender{
+            width: 100px;
+            height: 40px;
         }
 
-        .azul{
-            background-color: rgb(47, 95, 179);
+        .logofooter{
+            width: 140px;
+            height: 80px;
         }
+
+        .letraMenu{
+            font-size: 10px;
+            color: rgb(83, 83, 83);
+        }
+
+        .letraMenu:hover{
+            color: rgb(255, 0, 0);
+        }
+
+        .container {
+            max-width: 1700px;
+        }
+
+        .btn-light:hover {
+            background-color: transparent;
+            color: white;
+        }
+
     </style>
 </head>
 <body>
     <header>
-        <nav class="navbar">
-            <div class="px-0">
-                <div class="pl-3 d-flex flex-row-reverse me-5">
-                    <div class="align-middle "></div>
-                    <div class="align-middle "></div>
-                    <div class="align-middle "></div>
-                    <div class="align-middle"></div>
-                </div>
+        <div class="d-flex me-5">
+            <div class="align-middle ms-3">
+                <a href="#" class="text-decoration-none letraMenu "><strong>FENDER.COM</strong></a>
             </div>
-        </nav>
-        <nav class="navbar">
-            <div class="container px-0">
-                <div class="d-flex me-5">
-                    <div class="align-middle mx-auto"></div>
-                    <div class="align-middle "></div>
-                    <div class="align-middle"></div>
-                </div>
+            <div class="align-middle ms-3">
+                <a href="#" class="text-decoration-none letraMenu">PLAY</a>
             </div>
-        </nav>
-        <nav class="navbar navbar-expand-lg">
-            <ul class="nav">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">
-                        PROYECTOS <img src="src/logo.png" alt="Dropdown Icon" width="30" height="30">
-                      </a>
-                  <ul class="dropdown-menu text-start">
-                    <li><a class="dropdown-item" href="modal.html"></a></li>
-                    <li><a class="dropdown-item" href="administracion.html"></a></li>
-                    <li><a class="dropdown-item" href="administracion2.html"></a></li>
-                    <li><a class="dropdown-item" href="proyectos.html"></a></li>
-                    <li><a class="dropdown-item" href="edicion.html"></a></li>
-                    <li><a class="dropdown-item" href="detalle.html"></a></li>
-                  </ul>
-                </li>
-            </ul>
-        </nav>
-        
+            <div class="align-middle ms-3">
+                <a href="#" class="text-decoration-none letraMenu">TUNE</a>
+            </div>
+            <div class="align-middle ms-3">
+                <a href="#" class="text-decoration-none letraMenu">BEGINNERS</a>
+            </div>
+        </div>
+            <nav class="navbar bg-body container">
+                <div class="row align-items-center mx-auto ">
+                    <div class="col-2">
+                        <img src="src/logo.png" alt="Fender" class="img-fluid">
+                    </div>
+                    <div class="col-8 d-flex h-50">
+                        <input type="text" class="form-control rounded-5 px-5" placeholder="Search">
+                        <i style="margin-left: -565px; margin-top: 10px;" class="fa-solid fa-magnifying-glass text-body-tertiary"></i>
+                    </div>
+                    <div class="col-2">
+                        <i class="fa-solid fa-location-dot ms-5 fs-5"></i>
+                    </div>
+                </div>
+                <div class="row align-items-center mx-auto">
+                    <nav class="navbar navbar-expand-lg bg-body ">
+                        <div class="container-fluid ">
+                            <div class="collapse navbar-collapse" >
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        GUITARRAS ELÉCTRICAS
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">FILA1</a></li>
+                                        <li><a class="dropdown-item" href="#">FILA2 </a></li>
+                                        <li><a class="dropdown-item" href="#">FILA3</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        INSTRUMENTOS ACÚSTICOS
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">FILA1</a></li>
+                                        <li><a class="dropdown-item" href="#">FILA2 </a></li>
+                                        <li><a class="dropdown-item" href="#">FILA3</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        BAJOS
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">FILA1</a></li>
+                                        <li><a class="dropdown-item" href="#">FILA2 </a></li>
+                                        <li><a class="dropdown-item" href="#">FILA3</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        PEDALES
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">FILA1</a></li>
+                                        <li><a class="dropdown-item" href="#">FILA2 </a></li>
+                                        <li><a class="dropdown-item" href="#">FILA3</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Squier
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">FILA1</a></li>
+                                        <li><a class="dropdown-item" href="#">FILA2 </a></li>
+                                        <li><a class="dropdown-item" href="#">FILA3</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </nav>
+
     </header>
+
     <main>
+
+        <div class="my-4 text-center text-secondary-emphasis position-relative">
+            <img src="src/guitarra.jpg" class="img-fluid w-100 h-50" alt="">
+            <div class="position-absolute top-50 start-0 translate-middle-y text-light text-start p-4">
+                <p style="font-size: 15px;" class="fw-bold">UNA SERIE PARA TODOS LOS MÚSICOS</p>
+                <h1 class="display-4 fw-bold"><strong>AMERICAN PROFESSIONAL II</strong></h1>
+                <p>Los instrumentos de la serie American Profesional II son los más utilizados por todo tipo de músicos</p>
+                <p>en los escenarios del mundo. Esta serie tan versátil y apreciada por infinidad de artistas, establece el nuevo</p>
+                <p>estándar por el que se miden todas las guitarras y bajos eléctricos.</p>
+                <button class="btn btn-light btn-lg rounded-pill mt-3"><strong>VER AHORA</strong></button>
+            </div>
+        </div>
+        
         <div class="container">
-            <div class="my-4 text-center text-secondary-emphasis ">
-                <div class="w-75 m-auto">
-                    <h4>SUBTITULO</h4>
-                    <h1><strong>TITULO</strong></h1>
-                    <p>INFO</p>
-                    <button class="btn">BOTON</button>
+            <div style="margin-bottom: 170px;" class="row">
+                <h2 class="my-4 mt-5 mx-auto"><strong>CATEGORÍAS PRINCIPALES</strong></h2>
+                <div class="col-sm-6 col-md-3 col-lg-3 mb-4 pl-0">
+                    <img src="src/guitarra1.png" alt="" class="img-fluid">
+                    <p><strong>Guitarras Eléctricas</strong></p>
+                </div>
+                <div class="col-sm-6 col-md-3 col-lg-3 mb-4">
+                    <img src="src/guitarra2.png" alt="" class="img-fluid">
+                    <p><strong>Guitarras Acústicas</strong></p>
+                </div>
+                <div class="col-sm-6 col-md-3 col-lg-3 mb-4">
+                    <img src="src/guitarra3.png" alt="" class="img-fluid">
+                    <p><strong>Guitarras Squier</strong></p>
+                </div>
+                <div class="col-sm-6 col-md-3 col-lg-3 mb-4 pr-0">
+                    <img src="src/aplificador.png" alt="" class="img-fluid">
+                    <p><strong>Amplificadores & Sonido</strong></p>
                 </div>
             </div>
 
             <div class="row">
-                <div class="col-sm-2 col-md-3 col-lg-3">
-                    FOTO1
-                    <p>TEXTO</p>
+                <div class="col-sm-12 col-md-6 col-lg-6 position-relative">
+                    <img src="src/guitarrista.jpg" alt="" class="img-fluid">
+                    <div class="position-absolute bottom-0 start-0 m-3 text-light">
+                        <p><strong>Serie California</strong></p>
+                        <p><a href="" class="text-decoration-none text-light"><strong>DESCUBRIR</strong></a></p>
+                    </div>
                 </div>
-                <div class="col-sm-2 col-md-3 col-lg-3">
-                    FOTO2
-                    <p>TEXTO</p>
-                </div>
-                <div class="col-sm-2 col-md-3 col-lg-3">
-                    FOTO3
-                    <p>TEXTO</p>
-                </div>
-                <div class="col-sm-2 col-md-3 col-lg-3">
-                    FOTO4
-                    <p>TEXTO</p>
+                <div class="col-sm-12 col-md-6 col-lg-6 position-relative">
+                    <img src="src/coche.jpg" alt="" class="img-fluid">
+                    <div class="position-absolute bottom-0 start-0 m-3 text-light">
+                        <p style="font-size: 20px;"><strong>Novedades 2023</strong></p>
+                        <p style="font-size: 10px;"><a href="" class="text-decoration-none text-light"><strong>DESCUBRIR</strong></a></p>
+                    </div>
                 </div>
             </div>
+            
+
+            <h2 class="my-4 mt-5 mx-auto"><strong>ARTÍCULOS EN TENDENCIA</strong></h2>
+            
 
             <div class="row">
-                <div class="col-sm-12 col-md-6 col-lg-6">INFO1</div>
-                <div class="col-sm-12 col-md-6 col-lg-6">INFO2</div>
+                <div class="col-sm-12 col-md-4 col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="src/mujerguitarra.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body" style="background-color: #f2f2f2;">
+                            <p class="text-uppercase text-secondary fw-bold "><small>instrumentos</small></p>
+                            <h5 class="card-title">
+                                Serie Vintera II: Descubre junto a Madison Cunningham las mejores canciones de los años 50   
+                            </h5>
+                            <a href="https://www.fender.com/articles/instruments/vintera-ii-series-best-of-the-50s" class="text-uppercase text-dark  fw-bold"><small>leer</small></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="src/grupo.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body" style="background-color: #f2f2f2;">
+                            <p class="text-uppercase text-secondary fw-bold "><small>>CANCIONES</small></p>
+                            <h5 class="card-title">
+                                Aprende a tocar gratis el famoso tema de Metallica, "Enter Sandman", con Fender Play.
+                            </h5>
+                            <a href="https://www.fender.com/articles/instruments/vintera-ii-series-best-of-the-50s" class="text-uppercase text-dark  fw-bold"><small>leer</small></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="src/pareja.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body" style="background-color: #f2f2f2;">
+                            <p class="text-uppercase text-secondary fw-bold "><small>ARISTAS FENDER</small></p>
+                            <h5 class="card-title">
+                                La Serie Player: el dúo Cafuné habla de su pasión por la guitarra.
+                            </h5>
+                            <a href="https://www.fender.com/articles/instruments/vintera-ii-series-best-of-the-50s" class="text-uppercase text-dark  fw-bold"><small>leer</small></a>
+                        </div>
+                    </div>
+                </div>
             </div>
-
-            <h2>TITULO 2</h2>
-
-            <div class="row">
-                <div class="col-sm-12 col-md-4 col-lg-4 card ">
-                    <img src="#" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-4 col-lg-4 card ">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-4 col-lg-4 card ">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
+            
+            
         </div>
     </main>
-    <footer>
-        <div class="row"> 
-            <img src="" alt="">
-            <div>
-                <h3>TITULO FOOTER</h3>
-                <p>INFO</p>
-                <button></button>
-            </div>
-        </div>
-        <div class="row"> 
-            <div class="container mb-4 ms-5">
-                <div class="row align-items-start">
-                    <div class="col-sm-12 col-md-4 col-lg-4">
-                        <ul class="list-group text-primary-emphasis" style="font-size: 12px;">
-                            <li class="list-group-item border-0 text-secondary" style="font-size: 16px;">COL1</li>
-                            <li class="list-group-item border-0">EJEMPLO</li>
-                            <li class="list-group-item border-0">EJEMPLO</li>
-                            <li class="list-group-item border-0">EJEMPLO</li>
-                            <li class="list-group-item border-0">EJEMPLO</li>
-                            <li class="list-group-item border-0">EJEMPLOs</li>
-                            <li class="list-group-item border-0">EJEMPLO</li>
-                            <li class="list-group-item border-0">EJEMPLO</li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-12 col-md-4 col-lg-4">
-                        <ul class="list-group text-primary-emphasis" style="font-size: 12px;">
-                            <li class="list-group-item border-0 text-secondary" style="font-size: 16px;">COL1</li>
-                            <li class="list-group-item border-0">EJEMPLO</li>
-                            <li class="list-group-item border-0">EJEMPLO</li>
-                            <li class="list-group-item border-0">EJEMPLO</li>
-                            <li class="list-group-item border-0">EJEMPLO</li>
-                            <li class="list-group-item border-0">EJEMPLOs</li>
-                            <li class="list-group-item border-0">EJEMPLO</li>
-                            <li class="list-group-item border-0">EJEMPLO</li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-12 col-md-4 col-lg-4">
-                        <ul class="list-group text-primary-emphasis" style="font-size: 12px;">
-                            <li class="list-group-item border-0 text-secondary" style="font-size: 16px;">COL1</li>
-                            <li class="list-group-item border-0">EJEMPLO</li>
-                            <li class="list-group-item border-0">EJEMPLO</li>
-                            <li class="list-group-item border-0">EJEMPLO</li>
-                            <li class="list-group-item border-0">EJEMPLO</li>
-                            <li class="list-group-item border-0">EJEMPLOs</li>
-                            <li class="list-group-item border-0">EJEMPLO</li>
-                            <li class="list-group-item border-0">EJEMPLO</li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-12 col-md-4 col-lg-4">
-                        <ul class="list-group text-primary-emphasis" style="font-size: 12px;">
-                            <li class="list-group-item border-0 text-secondary" style="font-size: 16px;">COL1</li>
-                            <li class="list-group-item border-0">EJEMPLO</li>
-                            <li class="list-group-item border-0">EJEMPLO</li>
-                            <li class="list-group-item border-0">EJEMPLO</li>
-                            <li class="list-group-item border-0">EJEMPLO</li>
-                            <li class="list-group-item border-0">EJEMPLOs</li>
-                            <li class="list-group-item border-0">EJEMPLO</li>
-                            <li class="list-group-item border-0">EJEMPLO</li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-12 col-md-4 col-lg-4">
-                        <ul class="list-group text-primary-emphasis" style="font-size: 12px;">
-                            <li class="list-group-item border-0 text-secondary" style="font-size: 16px;">COL1</li>
-                            <li class="list-group-item border-0">EJEMPLO</li>
-                            <li class="list-group-item border-0">EJEMPLO</li>
-                            <li class="list-group-item border-0">EJEMPLO</li>
-                            <li class="list-group-item border-0">EJEMPLO</li>
-                            <li class="list-group-item border-0">EJEMPLOs</li>
-                            <li class="list-group-item border-0">EJEMPLO</li>
-                            <li class="list-group-item border-0">EJEMPLO</li>
-                        </ul>
+    <footer  style="background-color: black ;" >
+        <div class="container ">
+            <div style="padding-top: 20px;" class="row align-items-center mx-auto">
+                <div class="col-2">
+                    <img src="src/fender-logo-white-png.png" class="logofooter" alt="">
+                </div>
+                <div class="col-5 text-light ml-3">
+                    <h3>Don't miss out!</h3>
+                    <p class="text-body-tertiary">Be the first to know about new products, featured content, exclusive offers and giveaways.</p>
+                </div>
+                <div class="col-5 text-light ml-3">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Correo electrónico" aria-label="Correo electrónico" aria-describedby="basic-addon2">
+                        <button class="btn btn-danger text-light" type="button">Registrarse</button>
                     </div>
                 </div>
-            </div>              
-        </div>
-        <div class="row"> 
-            <nav class="navbar">
-                    <div class="azul">
-                        <i class="fa-solid fa-ellipsis p-3"></i>
+            </div>
+            
+            <div class="row">
+                <div class="container mb-4 ms-5">
+                    <div class="row align-items-start">
+                        <div class="col-sm-12 col-md-4 col-lg-4">
+                            <ul class="list-group bg-transparent" style="font-size: 12px;">
+                                <li class="list-group-item border-0 text-secondary" style="font-size: 16px;">COL1</li>
+                                <li class="list-group-item border-0">EJEMPLO</li>
+                                <li class="list-group-item border-0">EJEMPLO</li>
+                                <li class="list-group-item border-0">EJEMPLO</li>
+                                <li class="list-group-item border-0">EJEMPLO</li>
+                                <li class="list-group-item border-0">EJEMPLOs</li>
+                                <li class="list-group-item border-0">EJEMPLO</li>
+                                <li class="list-group-item border-0">EJEMPLO</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-sm-12 col-md-4 col-lg-4">
+                            <ul class="list-group text-primary-emphasis bg-transparent" style="font-size: 12px;">
+                                <li class="list-group-item border-0 text-secondary" style="font-size: 16px;">COL1</li>
+                                <li class="list-group-item border-0">EJEMPLO</li>
+                                <li class="list-group-item border-0">EJEMPLO</li>
+                                <li class="list-group-item border-0">EJEMPLO</li>
+                                <li class="list-group-item border-0">EJEMPLO</li>
+                                <li class="list-group-item border-0">EJEMPLOs</li>
+                                <li class="list-group-item border-0">EJEMPLO</li>
+                                <li class="list-group-item border-0">EJEMPLO</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-sm-12 col-md-4 col-lg-4">
+                            <ul class="list-group text-primary-emphasis bg-transparent" style="font-size: 12px;">
+                                <li class="list-group-item border-0 text-secondary" style="font-size: 16px;">COL1</li>
+                                <li class="list-group-item border-0">EJEMPLO</li>
+                                <li class="list-group-item border-0">EJEMPLO</li>
+                                <li class="list-group-item border-0">EJEMPLO</li>
+                                <li class="list-group-item border-0">EJEMPLO</li>
+                                <li class="list-group-item border-0">EJEMPLOs</li>
+                                <li class="list-group-item border-0">EJEMPLO</li>
+                                <li class="list-group-item border-0">EJEMPLO</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-sm-12 col-md-4 col-lg-4">
+                            <ul class="list-group text-primary-emphasis bg-transparent" style="font-size: 12px;">
+                                <li class="list-group-item border-0 text-secondary" style="font-size: 16px;">COL1</li>
+                                <li class="list-group-item border-0">EJEMPLO</li>
+                                <li class="list-group-item border-0">EJEMPLO</li>
+                                <li class="list-group-item border-0">EJEMPLO</li>
+                                <li class="list-group-item border-0">EJEMPLO</li>
+                                <li class="list-group-item border-0">EJEMPLOs</li>
+                                <li class="list-group-item border-0">EJEMPLO</li>
+                                <li class="list-group-item border-0">EJEMPLO</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-sm-12 col-md-4 col-lg-4">
+                            <ul class="list-group text-primary-emphasis bg-transparent" style="font-size: 12px;">
+                                <li class="list-group-item border-0 text-secondary" style="font-size: 16px;">COL1</li>
+                                <li class="list-group-item border-0">EJEMPLO</li>
+                                <li class="list-group-item border-0">EJEMPLO</li>
+                                <li class="list-group-item border-0">EJEMPLO</li>
+                                <li class="list-group-item border-0">EJEMPLO</li>
+                                <li class="list-group-item border-0">EJEMPLOs</li>
+                                <li class="list-group-item border-0">EJEMPLO</li>
+                                <li class="list-group-item border-0">EJEMPLO</li>
+                            </ul>
+                        </div>
+
                     </div>
-                    <div class="d-flex flex-row-reverse me-5">
-                        <div class="align-middle border rounded-pill px-4 py-1 mx-1 ">Ver stock</div>
-                        <div class="align-middle border rounded-pill px-4 py-1 mx-1">Solicita una prueba</div>
-                        <div class="align-middle border rounded-pill px-4 py-1 mx-1">Configúralo</div>
-                    </div>
-            </nav>
+                </div>
+            </div>
+            
+            <div class="row"> 
+                <nav class="navbar">
+                        <div class="azul">
+                            <i class="fa-solid fa-ellipsis p-3"></i>
+                        </div>
+                        <div class="d-flex flex-row-reverse me-5">
+                            <div class="align-middle border rounded-pill px-4 py-1 mx-1 ">Ver stock</div>
+                            <div class="align-middle border rounded-pill px-4 py-1 mx-1">Solicita una prueba</div>
+                            <div class="align-middle border rounded-pill px-4 py-1 mx-1">Configúralo</div>
+                        </div>
+                </nav>
+            </div>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
