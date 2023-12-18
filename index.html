@@ -9,112 +9,166 @@
     <script src="https://kit.fontawesome.com/a70ef8b3fc.js" crossorigin="anonymous"></script>
 
     <style>
+        .logoFender{
+            width: 100px;
+            height: 40px;
+        }
+        .letraMenu{
+            font-size: 10px;
+            color: rgb(83, 83, 83);
+        }
 
+        .letraMenu:hover{
+            color: rgb(255, 0, 0);
+        }
+
+        .container {
+            max-width: 1700px;
+        }
     </style>
 </head>
 <body>
     <header>
-        <nav class="navbar">
-            <div class="px-0">
-                <div class="pl-3 d-flex flex-row-reverse me-5">
-                    <div class="align-middle "></div>
-                    <div class="align-middle "></div>
-                    <div class="align-middle "></div>
-                    <div class="align-middle"></div>
-                </div>
+        <div class="d-flex me-5">
+            <div class="align-middle ms-3">
+                <a href="#" class="text-decoration-none letraMenu "><strong>FENDER.COM</strong></a>
             </div>
-        </nav>
-        <nav class="navbar">
-            <div class="container px-0">
-                <div class="d-flex me-5">
-                    <div class="align-middle mx-auto"></div>
-                    <div class="align-middle "></div>
-                    <div class="align-middle"></div>
-                </div>
+            <div class="align-middle ms-3">
+                <a href="#" class="text-decoration-none letraMenu">PLAY</a>
             </div>
-        </nav>
-        <nav class="navbar navbar-expand-lg">
-            <ul class="nav">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">
-                        PROYECTOS <img src="src/logo.png" alt="Dropdown Icon" width="30" height="30">
-                      </a>
-                  <ul class="dropdown-menu text-start">
-                    <li><a class="dropdown-item" href="modal.html"></a></li>
-                    <li><a class="dropdown-item" href="administracion.html"></a></li>
-                    <li><a class="dropdown-item" href="administracion2.html"></a></li>
-                    <li><a class="dropdown-item" href="proyectos.html"></a></li>
-                    <li><a class="dropdown-item" href="edicion.html"></a></li>
-                    <li><a class="dropdown-item" href="detalle.html"></a></li>
-                  </ul>
-                </li>
-            </ul>
-        </nav>
+            <div class="align-middle ms-3">
+                <a href="#" class="text-decoration-none letraMenu">TUNE</a>
+            </div>
+            <div class="align-middle ms-3">
+                <a href="#" class="text-decoration-none letraMenu">BEGINNERS</a>
+            </div>
+        </div>
         
+        <div>
+            <nav class="navbar">
+                <div class="container">
+                    <div class="d-flex me-5 mx-auto">
+                        <div class="align-middle ">
+                            <img src="src/logo.png" alt="FenderLogo" class="logoFender">
+                        </div>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2 border rounded-pill px-4 py-1 mx-1" type="search" placeholder="Search" aria-label="Search">
+                        </form>
+                        <div class="align-middle"><i class="fa-solid fa-location-dot"></i></div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div>
+            <nav class="navbar">
+                <ul class="nav">
+                    <li class="nav-item dropdown">
+                      <ul class="dropdown-menu text-start">
+                        <li><a class="dropdown-item" href="modal.html"></a>GUITARRAS ELÉCTRICAS</li>
+                        <li><a class="dropdown-item" href="administracion.html"></a>INSTRUMENTOS ACÚSTICOS</li>
+                        <li><a class="dropdown-item" href="administracion2.html">BAJOS</a></li>
+                        <li><a class="dropdown-item" href="proyectos.html">AMPLIFICADORES & SONIDO</a></li>
+                        <li><a class="dropdown-item" href="edicion.html">PEDALES</a></li>
+                        <li><a class="dropdown-item" href="detalle.html">ACCESORIOS & MAS</a></li>
+                        <li><a class="dropdown-item" href="detalle.html">SQUIER</a></li>
+                      </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div> 
     </header>
     <main>
+
+        <div class="my-4 text-center text-secondary-emphasis position-relative">
+            <img src="src/guitarra.jpg"  class="img-fluid w-100 h-50" alt="">
+            <div class="position-absolute top-50 start-0 translate-middle-y">
+                <h4 class="text-light">SUBTITULO</h4>
+                <h1 class="text-light"><strong>TITULO</strong></h1>
+                <p class="text-light">INFO</p>
+                <button class="btn btn-light">BOTON</button>
+            </div>
+        </div>
+
         <div class="container">
-            <div class="my-4 text-center text-secondary-emphasis ">
-                <div class="w-75 m-auto">
-                    <h4>SUBTITULO</h4>
-                    <h1><strong>TITULO</strong></h1>
-                    <p>INFO</p>
-                    <button class="btn">BOTON</button>
+            
+            
+            
+
+            <div style="margin-bottom: 170px;" class="row">
+                <h2 class="my-4 mt-5 mx-auto"><strong>CATEGORÍAS PRINCIPALES</strong></h2>
+                <div class="col-sm-6 col-md-3 col-lg-3 mb-4 pl-0">
+                    <img src="src/guitarra1.png" alt="" class="img-fluid">
+                    <p><strong>Guitarras Eléctricas</strong></p>
+                </div>
+                <div class="col-sm-6 col-md-3 col-lg-3 mb-4">
+                    <img src="src/guitarra2.png" alt="" class="img-fluid">
+                    <p><strong>Guitarras Acústicas</strong></p>
+                </div>
+                <div class="col-sm-6 col-md-3 col-lg-3 mb-4">
+                    <img src="src/guitarra3.png" alt="" class="img-fluid">
+                    <p><strong>Guitarras Squier</strong></p>
+                </div>
+                <div class="col-sm-6 col-md-3 col-lg-3 mb-4 pr-0">
+                    <img src="src/aplificador.png" alt="" class="img-fluid">
+                    <p><strong>Amplificadores & Sonido</strong></p>
                 </div>
             </div>
 
             <div class="row">
-                <div class="col-sm-2 col-md-3 col-lg-3">
-                    FOTO1
-                    <p>TEXTO</p>
+                <div class="col-sm-12 col-md-6 col-lg-6 position-relative">
+                    <img src="src/guitarrista.jpg" alt="" class="img-fluid">
+                    <div class="position-absolute bottom-0 start-0 m-3 text-light">
+                        <p><strong>Serie California</strong></p>
+                        <p><a href="" class="text-decoration-none text-light"><strong>DESCUBRIR</strong></a></p>
+                    </div>
                 </div>
-                <div class="col-sm-2 col-md-3 col-lg-3">
-                    FOTO2
-                    <p>TEXTO</p>
-                </div>
-                <div class="col-sm-2 col-md-3 col-lg-3">
-                    FOTO3
-                    <p>TEXTO</p>
-                </div>
-                <div class="col-sm-2 col-md-3 col-lg-3">
-                    FOTO4
-                    <p>TEXTO</p>
+                <div class="col-sm-12 col-md-6 col-lg-6 position-relative">
+                    <img src="src/coche.jpg" alt="" class="img-fluid">
+                    <div class="position-absolute bottom-0 start-0 m-3 text-light">
+                        <p style="font-size: 20px;"><strong>Novedades 2023</strong></p>
+                        <p style="font-size: 10px;"><a href="" class="text-decoration-none text-light"><strong>DESCUBRIR</strong></a></p>
+                    </div>
                 </div>
             </div>
+            
+
+            <h2 class="my-4 mt-5 mx-auto"><strong>ARTÍCULOS EN TENDENCIA</strong></h2>
+            
 
             <div class="row">
-                <div class="col-sm-12 col-md-6 col-lg-6">INFO1</div>
-                <div class="col-sm-12 col-md-6 col-lg-6">INFO2</div>
+                <div class="col-sm-12 col-md-4 col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="src/mujerguitarra.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body" style="background-color: #f2f2f2;">
+                            <h6 class="card-title">INSTRUMENTOS</h6>
+                            <p class="card-text">Serie Vintera II: Descubre junto a Madison Cunningham las mejores canciones de los años 50.</p>
+                            <a href="#" class="btn btn-primary">LEER</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="src/grupo.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body" style="background-color: #f2f2f2;">
+                            <h5 class="card-title">CANCIONES</h5>
+                            <p class="card-text">Aprende a tocar gratis el famoso tema de Metallica, "Enter Sandman", con Fender Play.</p>
+                            <a href="#" class="btn btn-primary">LEER</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="src/pareja.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body" style="background-color: #f2f2f2;">
+                            <h5 class="card-title">ARISTAS FENDER</h5>
+                            <p class="card-text">La Serie Player: el dúo Cafuné habla de su pasión por la guitarra.</p>
+                            <a href="#" class="btn btn-primary">Go LEER</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-
-            <h2>TITULO 2</h2>
-
-            <div class="row">
-                <div class="col-sm-12 col-md-4 col-lg-4 card ">
-                    <img src="#" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-4 col-lg-4 card ">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-4 col-lg-4 card ">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
+            
+            
         </div>
     </main>
     <footer>
